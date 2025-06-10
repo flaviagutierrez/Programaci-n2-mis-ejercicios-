@@ -7,7 +7,7 @@ channel = "stable-24_05"
 run = ["sh", "-c", "python3 main.py"]
 
 [workflows]
-runButton = "Ejecutar suma.py"
+runButton = "Ejecutar tabla_multiplicar.py"
 
 [[workflows.workflow]]
 name = "Ejecutar main.py"

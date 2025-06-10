@@ -1,5 +1,4 @@
 
-# Programa para mostrar la tabla de multiplicar
 # Pedir al usuario un número entero
 numero = int(input("Ingresa un número entero para ver su tabla de multiplicar: "))
 
@@ -12,4 +11,4 @@ for i in range(1, 11):
     print(f"{numero} x {i} = {resultado}")
 
 print("-" * 30)
-print("¡Tabla completada!")
+
