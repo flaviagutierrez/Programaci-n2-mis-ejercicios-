@@ -52,4 +52,4 @@ author = 43629579
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "phyton3 edadcinefuncional.py"
+args = "python3 edadcinefuncional.py"
