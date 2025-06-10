@@ -7,7 +7,7 @@ channel = "stable-24_05"
 run = ["sh", "-c", "python3 main.py"]
 
 [workflows]
-runButton = "Ejecutar tabla_multiplicar.py"
+runButton = "Ejecutar main.py"
 
 [[workflows.workflow]]
 name = "Ejecutar main.py"
@@ -44,3 +44,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 tabla_multiplicar.py"
+
+[[workflows.workflow]]
+name = "Ejecutar edadcinefuncional.py"
+mode = "sequential"
+author = 43629579
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "phyton3 edadcinefuncional.py"
