@@ -5,3 +5,15 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "python3 main.py"]
+
+[workflows]
+runButton = "Ejecutar Bucle.py"
+
+[[workflows.workflow]]
+name = "Ejecutar main.py"
+author = 43629579
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"
