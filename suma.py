@@ -3,7 +3,7 @@ def sumar(a, b): # "a" y "b" son PARÁMETROS
  resultado_suma = a + b
  return resultado_suma # La palabra clave "return" devuelve un valor
 
-# Pedir números al usuario
+# Pedir los números al usuario
 num1 = float(input("Ingresa el primer número: "))
 num2 = float(input("Ingresa el segundo número: "))
 
