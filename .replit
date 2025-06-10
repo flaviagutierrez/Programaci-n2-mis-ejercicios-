@@ -26,3 +26,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 saludar.py"
+
+[[workflows.workflow]]
+name = "Ejecutar suma.py"
+author = 43629579
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 suma.py"
