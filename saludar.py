@@ -3,6 +3,6 @@ def saludar(nombre_persona): # "nombre_persona" es un PARÁMETRO
  mensaje = f"¡Hola, {nombre_persona}! ¡Qué bueno tenerte aquí!"
  print(mensaje)
 
-# Pedir el nombre al usuario y llamar la función
+#Solicitar el nombre al usuario
 nombre = input("¿Cómo te llamas? ")
 saludar(nombre)
