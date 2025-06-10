@@ -9,3 +9,5 @@ elif edad >= 13:
     print("Puedes ver películas clasificadas PG-13.")
 else:
     print("Te recomendamos películas clasificadas G o PG.")
+
+
