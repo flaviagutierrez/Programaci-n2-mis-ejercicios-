@@ -35,3 +35,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 suma.py"
+
+[[workflows.workflow]]
+name = "Ejecutar tabla_multiplicar.py"
+author = 43629579
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 tabla_multiplicar.py"
