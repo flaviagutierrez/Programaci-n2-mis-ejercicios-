@@ -10,4 +10,4 @@ elif edad >= 13:
 else:
     print("Te recomendamos películas clasificadas G o PG.")
 
-![Captura de pantalla](images/Ejemploedadcine.png)
+
