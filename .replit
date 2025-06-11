@@ -7,7 +7,7 @@ channel = "stable-24_05"
 run = ["sh", "-c", "python3 main.py"]
 
 [workflows]
-runButton = "Ejecutar Lista_grupo.py"
+runButton = "Ejecutar misnotas.py"
 
 [[workflows.workflow]]
 name = "Ejecutar main.py"
@@ -107,3 +107,12 @@ author = 43629579
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 Lista_grupo.py"
+
+[[workflows.workflow]]
+name = "Ejecutar misnotas.py"
+mode = "sequential"
+author = 43629579
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 misnotas.py"
