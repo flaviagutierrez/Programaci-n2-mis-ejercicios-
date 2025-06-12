@@ -3,7 +3,7 @@ from mayor_lista import encontrar_mayor
 from conteo_lista import contar_elemento
 from invertir_lista import invertir_lista
 
-numeros = [3, 5, 7, 3, 9, 5, 3]
+numeros = [2,4,8,9,2,8,2]
 
 print("Suma:", sumar_lista(numeros))
 print("Mayor:", encontrar_mayor(numeros))
