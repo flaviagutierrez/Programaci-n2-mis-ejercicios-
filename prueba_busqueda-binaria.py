@@ -7,3 +7,7 @@ objetivo = 7
 
 # Ejecutar búsqueda binaria
 resultado = busqueda_binaria(numeros, objetivo)
+if resultado != -1:
+  print(f"Elemento {objetivo} encontrado en la posición {resultado}.")
+else:
+  print(f"Elemento {objetivo} no encontrado en la lista.")
