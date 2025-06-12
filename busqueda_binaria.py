@@ -6,9 +6,8 @@ def busqueda_binaria(lista, elemento):
     valor_medio=lista[medio]
     if valor_medio==elemento:
       return medio
-    elif elemento<valor_medio:
-      fin=medio-1
-    else:
+    elif elemento>valor_medio:
       inicio=medio+1
+    else:
+      fin=medio-1
   return -1
-  
