@@ -2,6 +2,7 @@ run = "python3 main.py"
 modules = ["python-3.11"]
 [nix]
 channel = "stable-24_05"
+packages = ["gir-rs"]
 
 [deployment]
 run = ["sh", "-c", "python3 main.py"]
